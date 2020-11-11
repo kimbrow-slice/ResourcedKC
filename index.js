@@ -59,4 +59,5 @@ class Client {
     //     innerhtml = resourcesForLocationAndTopic() 
     //   }
 
-    //   let activeClient = new Client();
+    //   let activeClient = new Client(); 
+}
