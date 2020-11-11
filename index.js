@@ -7,13 +7,11 @@ class Location {
 }
 
 class Resource {
-    constructor() {
-        this.name = null;
-        //a name
-        //phone 
-        //government vs nonprofit
-        //demographic info supports
-        //this.location new Location()
+        constructor(){ 
+            this.name = null; 
+            this.phonenumber = null;
+            this.govvsnp = null;
+            this.location = new Location();
     }
 }
 
