@@ -15,13 +15,13 @@ class Resource {
     }
 }
 
-class Topic {
-    constructor() {
-        //topic name
-        //resources [Resource]
-        //demographic 
-    }
-}
+class Topics { 
+    constructor (topic1, topic2, topic3) {​​​​​
+    this.topic1 = null;
+    this.topic2 = null;
+    this.topic3 = null;
+}​​​​​
+}​​​​​
 
 class DemographicInfo {
     constructor(race , gender , age , marital_status , orientation , religion){
