@@ -26,8 +26,15 @@ class Topic {
 }
 
 class DemographicInfo {
-
-}
+    constructor(race , gender , age , marital_status , orientation , religion){
+      this.race = null;
+      this.gender = null;
+      this.age = null;
+      this.maritalstatus = null;
+      this.orientation = null;
+      this.religion = null;
+    }
+  }
 
 class Client {
     constructor(topics, demoinfo, location) {
