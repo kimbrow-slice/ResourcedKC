@@ -1,5 +1,5 @@
 class Location {
-    constructor(city, zip, state) {
+    constructor(city, zip, state = null) {
         this.zip = zip;
         this.city = city;
         this.state = null;
