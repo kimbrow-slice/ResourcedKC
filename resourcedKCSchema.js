@@ -51,7 +51,7 @@ db.once('open', function(){
         race : {type: String, required: true, enum : ["White", "Black/African American", "Hispanic/Latino", "American Indian", "Asian/Pacific Islander", "Unknown/Other"]},
         dependents: [dependentSchema],
         sexualOrientation: {type: String, required: true, enum: ["Straight", "LGBTQ", "Prefer to not answer"]},
-        servicesOffered : {type: String, required: true, enum: ["Mental Health", "Emergency Housing", "Homeless Shelters", "Domestic Violence", "Suicide Prevention", "Hot Meals", "Financial Assistance", "We can add me here later"]},
+        servicesOffered : {type: String, required: true, enum: ["Mental Health", "Emergency Housing", "Homeless Shelters", "Domestic Violence", "Suicide Prevention", "Hot Meals", "Financial Assistance", "We can add more here later"]},
         maritalStatus: {type: String, required: true, enum: ["Single", "Married", "Separated", "Divorced", "Widowed"]},
         employed : {type: Boolean, required: true},
     });
@@ -62,7 +62,7 @@ db.once('open', function(){
         dependents: {type: Number, required: true},
         dependentGender: {type: String,required: true, enum: ["Male", "Female", "Other"]},
         dependentMinor : {type: Boolean, required: true},
-    })
+    });
 
 
        /* adminLogin schema for the administration to be able to update their organizations business information if need be
@@ -73,8 +73,8 @@ db.once('open', function(){
             password : {type: String, required: true, minlength: 8},
             emailAddress : {type: String, required: true, maxlength: 150},
             admin : {type: Boolean, required: true}
-        })
+        });
     
-
+                    // ( 4.5 Weeks is === 252 Hours of working time )
 });
 
